@@ -1,0 +1,90 @@
+#page{ margin: 20px; }
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+#nav ul{}
+#nav ul li{
+	display: inline-block;
+	height: 80px;	
+}
+#menu ul
+{
+	list-style:none;	
+}
+#menu ul li
+{
+	width:160px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	float:left;
+	margin-right:3px;
+	opacity:6.0;
+	position:relative;
+	border-radius:8px;
+	
+}
+#menu ul li a
+{
+	text-decoration:none;
+	color:black;
+	display:block;
+	opacity:.8;
+}
+#menu ul li a:hover
+{
+	background-color:green;
+	border-radius:8px;
+} 
+#menu ul ul
+{
+	position:absolute;
+	display:none;
+	
+}
+#menu ul li:hover >ul
+{
+	display:block;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  background-color:white;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+	background: black;
+	padding: 15px;
+	color: #70726F;
+}
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
+}
+h1{
+	margin-left: 500px;
+}
